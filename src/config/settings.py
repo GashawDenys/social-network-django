@@ -29,7 +29,7 @@ ALLOWED_HOSTS = [
     'mysite.com',
     'localhost',
     '127.0.0.1',
-    '99873eb65b50.ngrok.io'
+    '68f6ff589ea7.ngrok.io'
 ]
 
 
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'social_django',
+    'sorl.thumbnail',
 
     'images.apps.ImagesConfig',
 ]
