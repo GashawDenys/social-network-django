@@ -19,7 +19,7 @@ ALLOWED_HOSTS = [
     'mysite.com',
     'localhost',
     '127.0.0.1',
-    '8f0a80898d16.ngrok.io'
+    '01cb1ea53a18.ngrok.io'
 ]
 
 
@@ -81,6 +81,12 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+
+#redis
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 0
 
 
 # Password validation
